@@ -1,0 +1,42 @@
+{
+  "name": "@chribur_/strict-sanitizer",
+  "version": "1.0.0",
+  "description": "Node package of strict sanitizer for XSS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "clean": "rm -rf dist/*",
+    "tsc:type": "tsc -d",
+    "build": "npm-run-all clean tsc:type",
+    "start": "node ",
+    "check-types": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CHRIBUR0309/strictSanitizer.git"
+  },
+  "keywords": [
+    "ascii",
+    "sanitize",
+    "xss"
+  ],
+  "author": "CHRIBUR_",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CHRIBUR0309/strictSanitizer/issues"
+  },
+  "homepage": "https://github.com/CHRIBUR0309/strictSanitizer#readme",
+  "dependencies": {
+    "@types/node": "^20",
+    "ts-node": "^10",
+    "ts-pattern": "^5",
+    "typescript": "^5"
+  },
+  "devDependencies": {
+    "@types/jest": "^29",
+    "jest": "^29",
+    "npm-run-all": "^4",
+    "ts-jest": "^29"
+  }
+}
