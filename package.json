@@ -1,6 +1,6 @@
 {
   "name": "@chribur_/strict-sanitizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node package of strict sanitizer for XSS",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -1,5 +1,7 @@
+/.github
 /node_modules
 /src
 /tests
 .mise.toml
+jest.config.js
 tsconfig.json
