@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/CHRIBUR0309/strictSanitizer#readme",
   "dependencies": {
-    "@types/node": "^20",
+    "@types/node": "^22",
     "ts-node": "^10",
     "ts-pattern": "^5",
     "typescript": "^5"
